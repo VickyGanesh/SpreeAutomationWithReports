@@ -1,0 +1,10 @@
+
+Y
+java:S1659">Declare "b" and all following declarations on a separate line.(ë³ ¹øÿÿÿÿ
+N	java:S106	"9Replace this use of System.out or System.err by a logger.(œ™Ì
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¬‡à
+S	java:S106"9Replace this use of System.out or System.err by a logger.(×‹°Ïøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÃÉÏıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(«Ìå“øÿÿÿÿ
+V	java:S125!"<This block of commented-out lines of code should be removed.(Áµ§òıÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅãÛ÷şÿÿÿÿ
