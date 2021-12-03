@@ -14,13 +14,6 @@ public class ProductPage {
         PageFactory.initElements(webDriver,this);
     }
 
-    @FindBy (css = "a[href='/logout']")
-    WebElement logOutButton;
-
-    public  void clickLogout(){
-        logOutButton.click();
-    }
-
     @FindBy (css = "a[href='/t/bags']")
     WebElement categoryBag;
 

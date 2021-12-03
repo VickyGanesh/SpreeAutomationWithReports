@@ -26,6 +26,12 @@ public class LoginPage {
         passWord.sendKeys(pswrd);
         btn_login.click();
     }
+    @FindBy (css = "a[href='/logout']")
+    WebElement logOutButton;
+
+    public  void clickLogout(){
+        logOutButton.click();
+    }
 
 
 }
