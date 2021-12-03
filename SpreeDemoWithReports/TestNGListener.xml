@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="1">
+    <listeners>
+        <listener class-name="Reports.TestListener" />
+    </listeners>
+    <parameter name="browserType" value="chrome" />
+    <parameter name="Spree Demo Apploication" value="https://spree-vapasi-prod.herokuapp.com/" />
+
+    <test name="Spree Demo Tests">
+        <classes>
+            <class name="org.example.AppTest" />
+        </classes>
+    </test>
+</suite>
